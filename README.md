@@ -56,6 +56,13 @@ wss.on('connection', ws => {
 - Usar Application.ExternalCall o SendMessage si se interactúa con JS.
 - Vincular los scripts a UI (botones e inputs).
 
+## Subida a WebGL y configuración de base de datos en la nube
+
+- Después de exportar el proyecto Unity como WebGL, se suben los archivos a un hosting web.
+- En este caso, se utilizó **awardspace.com** para alojar una base de datos en la nube.
+- Desde Awardspace se pueden gestionar archivos PHP que se conectan correctamente a la base de datos.
+- Esto permite que el frontend WebGL haga llamadas a los scripts PHP para interactuar con la base de datos remota.
+
 ## Desplegar en GitHub Pages (si se usa WebGL como frontend):
 Exportar desde Unity como WebGL.
 
